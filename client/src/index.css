@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  background: #f6faf8;
+}
+
+.button { @apply w-full rounded-xl bg-emerald-700 px-4 py-2.5 font-semibold text-white shadow-md shadow-emerald-900/10 transition-all duration-200 hover:-translate-y-px hover:bg-emerald-800 hover:shadow-lg focus:outline-none focus:ring-4 focus:ring-emerald-200 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-60; }
+
+@layer base {
+  input:not([type="file"]):not([type="checkbox"]):not([type="radio"]), select, textarea { @apply transition duration-200 focus:border-emerald-500 focus:outline-none focus:ring-4 focus:ring-emerald-100; }
+  input[type="file"] { @apply rounded-lg border border-dashed border-slate-300 bg-slate-50 p-2 text-slate-600 transition hover:border-emerald-400 hover:bg-emerald-50; }
+}

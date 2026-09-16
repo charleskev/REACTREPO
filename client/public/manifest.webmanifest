@@ -1,0 +1,13 @@
+{
+  "name": "AgriSystem MAO",
+  "short_name": "AgriSystem",
+  "description": "Municipal Agriculture Office farm records and crop-damage reporting.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f6fbf7",
+  "theme_color": "#166534",
+  "orientation": "portrait-primary",
+  "icons": [
+    { "src": "/icons/agrisystem-icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

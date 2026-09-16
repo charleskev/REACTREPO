@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="112" fill="#075b43"/>
+  <path d="M104 356c34-127 104-190 215-194-10 89-57 170-170 194-21 5-33 5-45 0Z" fill="#b6ed57"/>
+  <path d="M154 383c61-94 119-142 200-174" fill="none" stroke="#f7fde9" stroke-linecap="round" stroke-width="24"/>
+  <path d="M322 128c11 35 4 70-19 102-19-17-33-39-38-66 15-20 34-26 57-17Z" fill="#f6cd61"/>
+  <text x="256" y="452" fill="#fff" font-family="Arial,sans-serif" font-size="52" font-weight="700" text-anchor="middle">MAO</text>
+</svg>
